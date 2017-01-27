@@ -32,3 +32,15 @@ $RECYCLE.BIN/
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
+www
+.tmp
+.sass-cache
+coverage
+platforms
+plugins
+*.swp
+*.swo
+*.log
+*.DS_Store
+node_modules
+
