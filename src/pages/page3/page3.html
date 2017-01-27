@@ -1,9 +1,9 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color='navbarColor'>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>QR Code Scanner</ion-title>
+    <ion-title>My Health App</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -13,4 +13,8 @@
   <p>
     Start <a href="http://ionicframework.com/docs/v2">here</a>.
   </p>
+
+  <button ion-button block color="secondary" class="Scan-button" (click)="scanQR()" [disabled]="loading">{{buttonText}}</button>
+
+  <h2 class="Scan-resultUser">{{scannedText}}</h2>
 </ion-content>
